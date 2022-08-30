@@ -47,65 +47,71 @@
             border-bottom-left-radius: 10px;
             border-top-right-radius: 10px;
         }
+        /* services */
         .service-head{
             background-color: black;
             color: white;
             display: flex;
             margin-top: 20px;
             }
+            
             .service{
                 display: flex;
-                font-size: 30px;
+                font-size: 25px;
                 text-align: justify;
             }
             #pz{
                 width: 80%;
-                padding: 50px;
+                /* padding: 50px; */
+                padding-top: 95px;
+                padding-left: 40px;
                
-            }
-            .pz1{
-                display: flex;
-                justify-content: center;
             }
             .service1{
                 display: flex;
-                font-size: 30px;
+                font-size: 25px;
                 text-align: justify;
+
             }
             
             #cat{
                 width: 80%;
-                padding: 50px;
+                /* padding: 50px; */
+                padding-top: 110px;
+                padding-left: 30px;
+                
             }
             .service2{
                 display: flex;
-                font-size: 30px;
+                font-size: 25px;
                 text-align: justify;
             }
             #slowgun{
                 width: 80%;
                 padding: 60px;
                 padding-top: 40px;
+                
             }
+           /* menu start */
             h1{
                 padding-left: 37%;
                 color: blue;
+            }
+            .menu{
+                border: 1px double black;
             }
             .padm{
                 display: flex; 
                 padding: 10px; 
                 justify-content: space-around;
                 background-color: rgb(247, 240, 231);
-                transition: width,height,border-radius,border ;
-               
-                
             }
             .padm img:hover{
-                width: 30%;
-                height: 200px;
-                border-radius: 100px;
-                border: 2px black groove;
-
+                width:30% ;
+                height: 270px;
+                border-radius: 5px;
+                border: 1px black solid;
+                transition: ease-in,2s;
             }
             #end{
                 padding-left: 25%;
@@ -129,25 +135,23 @@
             0% { background-image: url(sur.jpg); background-repeat: no-repeat; }
             80%  {background-image: url(bahu.jpg); background-repeat: no-repeat; }
             }
-            .add{
-        background-color: black;
-        color: white;
-        padding: 20px;
-       }
-       .sec{
-        float: right;
-       margin-top: -15.5%;
-       }
-       .ex{
-             display: flex;
-             padding-left: 27%;
-             padding-top: 2%;
-           }
+        
+           .add{
+                display: flex;
+                    background-color: black;
+                    color: white;
+                    padding: 20px;
+                }
+            .sec{
+                 padding-left: 8%;
+                  margin-top: -2px;
+                }
+             .ex{
+              padding-left: 8%;
+               }
            .ex a{
-            padding: 15px;
-            padding-top: 0%;
+            text-decoration: none;
             color: white;
-            text-decoration:underline;
            }
             
 
@@ -172,28 +176,28 @@
         <br><br><br>
     <h1 class="service-head">*_OUR SERVICES_*</h1>
         <br>
-        
-            <div class="service">
-                <img src="pz.jpg" alt="">
+           <div class="service">
+                <img src="pz.jpg" alt="" width="70%" height="370px"  style="margin-left: 20px;">
                 <dl>
-                    <dt><h4 class="pz1"> FOOD ORDER</h4></dt>
-                    <dd id="pz">Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot ...</dd>
+                    <!-- <dt><h4 class="pz1"> FOOD ORDER</h4></dt> -->
+                    <dd id="pz"><b>FOOD ORDER</b> <br><br> Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot ...</dd>
                 </dl>
             </div>
-            <br>
+            <br><br><br>
             <div class="service1">
                 <dl>
-                    <dt><h4 class="pz1"> BULK/CATERING ORDER</h4></dt>
-                <dd id="cat">Catering is the business of providing food service at a remote site or a site such as a hotel, hospital, pub, aircraft, cruise ship, park, filming site or studio, entertainment site, or event venue.</dd>
+                    <!-- <dt><h4 class="pz1"> BULK/CATERING ORDER</h4></dt> -->
+                <dd id="cat"><b>BULK/CATERING ORDER</b><br><br> is the business of providing food service at a remote site or a site such as a hotel, hospital, pub, aircraft, cruise ship, park, filming site or studio, entertainment site, or event venue.</dd>
                </dl>
-                <img src="catering.jpg" alt="" >
+                <img src="catering.jpg" alt=""  width="70%" height="350px"  style="margin-right: 20px;">
             </div>
-            <br>
+            <br><br><br>
             <div class="service2">
-            <img src="dilivry.jpg" alt="">
+            <img src="dilivry.jpg" alt=""  width="35%" height="350px" style="margin-left: 20px;">
             <dl>
-                <dt><h4 class="pz1"> FAST DELIVERY</h4></dt>
-            <dd id="slowgun"> * Call us and we'll be. <br>
+                <!-- <dt><h4 class="pz1"> FAST DELIVERY</h4></dt> -->
+            <dd id="slowgun"><b>FAST DELIVERY</b><br><br>
+             * Call us and we'll be. <br>
             * Delivered with love.<br>
             * Delivering happiness<br>
             * Delivering happiness to your home.<br>
@@ -203,42 +207,42 @@
             </dd>
             </dl>
             </div>
-            <br>
-            <div style="display: flex; padding: 5px;">
-            <img src="xvii.jpg" alt="" width="25%" height="200px">
-            <img src="xviii.jpg" alt="" width="25%" height="200px">
-            <img src="xxi.jpg" alt="" width="25%" height="200px">
-            <img src="xx.jpg" alt="" width="25%" height="200px">
-            
-            </div>
-           <div style="display: flex; padding: 5px;">
-            <img src="i.jpg" alt="" width="20%" height="20%">
-            <img src="ii.webp" alt="" width="20%">
-            <img src="iv.jpg" alt="" width="20%" height="20%">
-            <img src="v.jpg" alt="" width="20%" height="20%">
-            <img src="viii.jpg" alt="" width="20%">
-            </div>
-            <div style="display: flex; padding: 5px;">
-            <img src="xi.jpg" alt="" width="20%" height="200px">
-            <img src="iii.jpg" alt="" width="20%" height="200px">
-            <img src="v.jpg" alt="" width="20%" height="200px">
-            <img src="x.jpg" alt="" width="20%" height="200px">
-            <img src="vi.jpg" alt="" width="20%" height="200px">
-            </div>
-            <div style="display: flex; padding: 5px;">
-            <img src="vii.jpg" alt="" width="20%" height="200px">
-            <img src="xii.jpg" alt="" width="20%" height="200px">
-            <img src="xiii.jpg" alt="" width="20%" height="200px">
-            <img src="xiv.jpg" alt="" width="20%" height="200px">
-            <img src="xvi.jpg" alt="" width="20%" height="200px">
+            <br><br>
+            <h1>---MENU---</h1>
+            <div style="display: flex; padding: 1px;">&nbsp&nbsp&nbsp
+                <img class="menu" src="xvii.jpg" alt="" width="25%" height="200px">&nbsp&nbsp
+            <img class="menu" src="xviii.jpg" alt="" width="25%" height="200px">&nbsp&nbsp
+            <img class="menu" src="xxi.jpg" alt="" width="25%" height="200px">&nbsp&nbsp
+            <img class="menu" src="xx.jpg" alt="" width="25%" height="200px">&nbsp&nbsp
+            </div><br>
+           <div style="display: flex; padding: 1px;">&nbsp&nbsp&nbsp
+            <img class="menu" src="i.jpg" alt="" width="20%" height="200px">&nbsp&nbsp
+            <img class="menu" src="ii.webp" alt="" width="20%"height="200px">&nbsp&nbsp
+            <img class="menu" src="iv.jpg" alt="" width="20%" height="200opx">&nbsp&nbsp
+            <img class="menu" src="v.jpg" alt="" width="20%" height="200px">&nbsp&nbsp
+            <img class="menu" src="viii.jpg" alt="" width="15%" height="200px">&nbsp&nbsp
+            </div><br>
+            <div style="display: flex; padding: 1px;">&nbsp&nbsp&nbsp
+            <img class="menu" src="xi.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="iii.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="v.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="x.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="vi.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            </div><br>
+            <div style="display: flex; padding: 5px;">&nbsp&nbsp&nbsp
+            <img class="menu" src="vii.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="xii.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="xiii.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="xiv.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
+            <img class="menu" src="xvi.jpg" alt="" width="20%" height="200px">&nbsp&nbsp&nbsp
             </div>
             <br>
             <h1>--OUR SPECIAL DISH--</h1>
             <br>
             <div class="padm">
                 
-                <img src="sp1.jpg" alt="" width="10%" height="100px">
-                <img src="sp2.jpg" alt="" width="10%" height="100px">
+                <img src="ssp1.webp" alt="" width="25%" height="250px">
+                <img src="ssp2.png" alt="" width="25%" height="250px">
                 
             </div>
             <br>
@@ -247,6 +251,7 @@
             <hr><hr>
             
             <div class="add">
+                <div class="owner">
                 <dl>
                     <dt><b>PADMAJA NITIN BIRARI</b></dt>
                     <dd>Owner of online food services... <br>Bunglow No 16,<br>Madhav Colony,<br>Manmad-423104. 
@@ -260,8 +265,8 @@
                         <a href="#"><img src="in.png" alt=""></a>
                         <a href="#"><img src="ins.png" alt=""></a>
                         <a href="#"><img src="tw.png" alt=""></a>
-        
-        
+            
+                 </div>
                 <div class="sec">
                     <dl>
                         <dt><b>MAYANK BIRARI</b></dt>
@@ -276,20 +281,21 @@
                     <a href="#"><img src="in.png" alt=""></a>
                     <a href="#"><img src="ins.png" alt=""></a>
                     <a href="#"><img src="tw.png" alt=""></a>
+                    
                 </div>
                 <div class="ex">
-                    <b>Explore Our Page :-</b>
+                    <b>Explore Our Page :-</b><br><br>
                 
-                            <a href="PROJECT1.html">HOME</a>
-                            <a href="service_project.html">SERVICE</a>
-                            <a href="aboutus.html">ABOUT US</a>
-                            <a href="conatct_project.html">CONTACT US</a>
+                            <a href="PROJECT1.html">HOME</a><br><br>
+                            <a href="service_project.html">SERVICE</a><br><br>
+                            <a href="aboutus.html">ABOUT US</a><br><br>
+                            <a href="conatct_project.html">CONTACT US</a><br><br>
                         
                 </div>
-            
+                
             </div>
+            <br>
             
-            
-            
+             
 </body>
 </html>
